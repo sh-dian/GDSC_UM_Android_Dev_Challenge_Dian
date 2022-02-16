@@ -9,6 +9,8 @@
  <p> :sparkles: The delete function will work as below:</p>
  <p><i>  1.   Click and hold the diary you want to delete for 2 seconds.<br> 2.   The diary will be delete and you will see some motion added.</i></p>
  
+ <p>View the application showcase here! :https://drive.google.com/drive/folders/17RNYv7vrClCkRbWBZJvvY4kTJb0kmYe0?usp=sharing</p>
+ 
  <h3 align="left"></i>Language & Tool:</h3>
 <p align="left"> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
    <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
