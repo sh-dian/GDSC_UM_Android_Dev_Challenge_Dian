@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "654107427902",
+    "firebase_url": "https://idiary-7d9db-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "idiary-7d9db",
+    "storage_bucket": "idiary-7d9db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654107427902:android:8f600397f46bcd7ea3fd6f",
+        "android_client_info": {
+          "package_name": "com.example.idiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654107427902-608s4u4heb01lbiv68agujl9g87vqr4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.idiary",
+            "certificate_hash": "eb3b8bced9e1649d5bbd77e2fe004e4270fa155b"
+          }
+        },
+        {
+          "client_id": "654107427902-jukihi7t98mg13s03bhbkvfb51bo7m5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfmqA3VQObIUBFI3xe7PVa4xq0ZMGXGHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654107427902-jukihi7t98mg13s03bhbkvfb51bo7m5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back_ground"
+    tools:context=".LoginActivity">
+
+    <View
+        android:id="@+id/pinkish_cover"
+        android:layout_width="300dp"
+        android:layout_height="562dp"
+        android:background="@drawable/login_background"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="104dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/cream"
+        app:cardCornerRadius="75dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="75dp"
+            android:layout_height="71dp"
+            android:layout_margin="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_full_logo" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/wellcome_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/pacifico"
+        android:gravity="center"
+        android:padding="20dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="30"
+        android:text="Get started with your digital diary today "
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/google_login_button"
+        android:layout_width="218dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/cream"
+        android:insetBottom="0dp"
+        android:minHeight="55dp"
+        android:text="Sign in with Google"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="10dp"
+        app:elevation="0dp"
+        app:icon="@drawable/ic_google_icon_svg"
+        app:iconPadding="10dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wellcome_text_view"
+        app:layout_constraintVertical_bias="0.858"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp" />
+
+    <EditText
+        android:id="@+id/EmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="trialapp@gmail.com"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cream"
+        app:layout_constraintBottom_toTopOf="@+id/google_login_button"
+        app:layout_constraintEnd_toEndOf="@+id/pinkish_cover"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="@+id/pinkish_cover"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="123_try_App"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cream"
+        app:layout_constraintBottom_toTopOf="@+id/google_login_button"
+        app:layout_constraintEnd_toEndOf="@+id/pinkish_cover"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/pinkish_cover"
+        app:layout_constraintTop_toBottomOf="@+id/EmailAddress"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="209dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="220dp"
+        android:backgroundTint="@color/cream"
+        android:insetBottom="0dp"
+        android:minHeight="48dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:cornerRadius="10dp"
+        app:elevation="0dp"
+        app:iconPadding="10dp"
+        app:iconTintMode="multiply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password"
+        app:layout_constraintVertical_bias="0.21"
+        app:strokeColor="@color/black"
+        app:strokeWidth="1dp" />
+
+    <ImageView
+        android:id="@+id/fingerprint"
+        android:layout_width="61dp"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/pinkish_cover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_baseline_fingerprint_24"
+        app:tint="@color/black" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
