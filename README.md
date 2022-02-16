@@ -1,6 +1,6 @@
 <h1>GDSC_UM_Android_Dev_Challenge_Dian :sparkles:</h1>
 
-<p>The source code :desktop_computer: above is the <b>Diary Application (iDiary)</b> updated for the Android Development Challenge from the <b>GDSC UM Android Development Workshop</b>. There have already been functions that allow users to <b>sign in with Google</b> and <b>add the diary (Title, Description, Image)</b>. A few (:new:) modifications have been made to the <b>login UI</b> for a new function, as well as the <b>Main Activity UI</b> for a better user experience.
+<p>The source code :desktop_computer: above is the <b>Diary Application (iDiary)</b> modified for the Android Development Challenge from the <b>GDSC UM Android Development Workshop</b>. There have already been functions that allow users to <b>sign in with Google</b> and <b>add the diary (Title, Description, Image)</b>. A few (:new:) modifications have been made to the <b>login UI</b> for a new function, as well as the <b>Main Activity UI</b> for a better user experience.
  <br><br> The application's new feature (:new:) allows users to <b>sign in using their email address and password, as well as using biometric (fingerprint) authentication</b>. Following that, there is a feature that (:new:) allows the user to<b> remove </b>the diary that has been uploaded to the application. However, the delete function is not linked to the firebase, thus the remove action will take place just in the GUI. </p>
 
 <p> :sparkles: The biometric (fingerprint) function will work as below:</p>
